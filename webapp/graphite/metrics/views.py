@@ -21,6 +21,7 @@ from graphite.logger import log
 from graphite.storage import STORE
 from graphite.metrics.search import searcher
 from graphite.carbonlink import CarbonLink
+from urllib.request import urlopen
 import fnmatch, os
 
 try:
